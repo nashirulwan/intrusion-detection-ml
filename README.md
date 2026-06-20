@@ -1,10 +1,10 @@
 ### Network Intrusion Detection
 
-Comparing three tree-based models — Decision Tree, Random Forest, and XGBoost — at telling normal network traffic apart from attacks. Data science course project.
+A data science course project comparing three tree-based models (Decision Tree, Random Forest, and XGBoost) at telling normal network traffic apart from attacks.
 
 #### Overview
 
-![Infographic — Network Intrusion Detection with tree-based models](reports/infografis.png)
+![Project infographic](reports/infografis.png)
 
 > The infographic above summarizes the project at a glance. The full version is in
 > [`reports/infografis.html`](reports/infografis.html).
@@ -68,3 +68,7 @@ Main experiment setup:
 - Binary classification: `normal` vs `anomalous`
 - Compared models: Decision Tree, Random Forest, and XGBoost
 - Evaluation metrics: accuracy, precision, recall/sensitivity, specificity, F1-score, confusion matrix, and ROC-AUC
+
+#### License
+
+MIT, see LICENSE.
