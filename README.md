@@ -71,4 +71,4 @@ Main experiment setup:
 
 #### License
 
-MIT, see LICENSE.
+[MIT](LICENSE)
