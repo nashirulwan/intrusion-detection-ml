@@ -1,10 +1,8 @@
-# Network Intrusion Detection
+### Network Intrusion Detection
 
-Data Science course project:
+Comparing three tree-based models — Decision Tree, Random Forest, and XGBoost — at telling normal network traffic apart from attacks. Data science course project.
 
-**A Comparison of Tree-Based Models (Decision Tree, Random Forest, and XGBoost) for Normal and Anomaly Classification on the Network Intrusion Detection Dataset**
-
-## Overview
+#### Overview
 
 ![Infographic — Network Intrusion Detection with tree-based models](reports/infografis.png)
 
@@ -16,7 +14,7 @@ accuracy, F1-score, recall, and ROC-AUC, with Random Forest and XGBoost edging o
 single Decision Tree. F1-score (validated with 5-fold cross-validation) is used as the
 main reference metric. See the infographic above for the exact per-metric figures.
 
-## Environment
+#### Environment
 
 Run JupyterLab from the Nix development environment:
 
@@ -31,7 +29,7 @@ nix develop
 jupyter lab
 ```
 
-## Project Structure
+#### Project Structure
 
 - `data/raw/`: original dataset files from Kaggle.
 - `data/processed/`: processed datasets, if needed.
@@ -40,7 +38,7 @@ jupyter lab
 - `outputs/models/`: saved model artifacts, if needed.
 - `reports/`: report drafts or writing notes.
 
-## Dataset
+#### Dataset
 
 Dataset source:
 
@@ -53,7 +51,7 @@ Files used:
 - `Train_data.csv`: labeled data used for training and evaluation with an internal train-test split.
 - `Test_data.csv`: unlabeled data, not used for metric calculation.
 
-## Methodology
+#### Methodology
 
 This project follows the Data Science methodology used in the course:
 
@@ -63,7 +61,7 @@ This project follows the Data Science methodology used in the course:
 4. Modeling
 5. Model Evaluation
 
-## Experiment Focus
+#### Experiment Focus
 
 Main experiment setup:
 
